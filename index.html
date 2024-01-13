@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Weather Application</title>
+	<script type="module" src="/main.js" defer></script>
+</head>
+
+<!-- Body Parts -->
+<body>
+
+<section class="card">
+	<div class="search">
+		<input type="text" id="text" placeholder="Enter City Name" spellcheck="false">
+		<button><img src="./images/search.png" alt=""> </button>
+	</div>
+	<div class="error">
+		<p>Invalid City Name</p>
+	</div>
+	<div class="weather">
+		<img src="./images/rain.png" class="weather-icon">
+		<h1 class="temp">22 &deg;C</h1>
+		<h2 class="city">New York</h2>
+		<div class="details">
+			<div class="col">
+				<img src="./images/humidity.png" alt="">
+				<div>
+				<p class="humidity"> 50%</p>
+				<p>Humidity</p>
+				</div>
+			</div>
+
+			<div class="col">
+				<img src="./images/wind.png" alt="">
+				<div>
+					<p class="wind"> 15km/hr</p>
+					<p>Wind Speed</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+</body>
+</html>
